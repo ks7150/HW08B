@@ -18,7 +18,7 @@ peaks = song.getPeaks(width)
 
 
 function draw() {
-  background(220, 20, 120);
+  background(220, 120, 120);
 for(let i=0; i < peaks.length; i++){
 //line (i%width,height/2+peaks[i]*height/2, i%width, height/2)
 let x= i%width;
